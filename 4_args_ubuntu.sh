@@ -81,4 +81,4 @@ echo
 
 # to run it
 # chmod +x 4_args_ubuntu.sh
-# 4_args_ubuntu.sh https://www.tooplate.com/zip-templates/2137_barista_cafe.zip 2137_barista_cafe.zip
+# 4_args_ubuntu.sh https://www.tooplate.com/zip-templates/2137_barista_cafe.zip 2137_barista_cafe
