@@ -64,4 +64,4 @@ if you want to make a variable available for only the loggedIn user  on the mach
 export VARIABLE_NAME=VALUE
 ```
 
-to `ls .bashrc`
+to `ls ~/.bashrc`
