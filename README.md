@@ -1,6 +1,6 @@
 # bash-scripting
 
-## comment example
+### comment example
 
 ```#!/bin/bash
 # this is a comment
