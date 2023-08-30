@@ -25,3 +25,7 @@ echo "################################################################"
 sudo apt-get install $package -y > $nullFolder
 echo
 ```
+
+### argument example
+
+note `$0` is by default the folder name
