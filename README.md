@@ -2,7 +2,7 @@
 
 ### comment example
 
-```#!/bin/bash
+```bash
 # this is a comment
 
 echo "###################################################"
@@ -13,7 +13,7 @@ echo
 
 ### variable example
 
-```#!/bin/bash
+```bash
 # variable declaration
 package="wget apache2 unzip"
 nullFolder="/dev/null"
@@ -37,5 +37,13 @@ echo
 - `$USER` returns username of user running the script
 - `$HOSTNAME` returns hostname of the machine running the script
 - `$SECONDS` returns the seconds since the script was started
-- `$RANDOM` generate and return a random number
+- `$RANDOM` generate and return a random number (0 – 32767)
 - `$LINENO` returns the current line number in the bash script
+
+### quote example
+
+```bash
+skill="devops"
+
+echo "I am a $skill engineer in view, and I will make \$1 million usd/month"
+```
