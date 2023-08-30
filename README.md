@@ -1,5 +1,7 @@
 # bash-scripting
 
+## comment example
+
 ```#!/bin/bash
 # this is a comment
 
@@ -8,6 +10,8 @@ echo "The system uptime is:"
 uptime
 echo 
 ```
+
+## variable example
 
 ```#!/bin/bash
 # variable declaration
