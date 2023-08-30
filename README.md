@@ -47,3 +47,21 @@ skill="devops"
 
 echo "I am a $skill engineer in view, and I will make \$1 million usd/month"
 ```
+
+### exporting commands explanation
+
+if you want to make a variable available for all users on the machine then add
+
+```bash
+export VARIABLE_NAME=VALUE
+```
+
+to `ls /etc/profile`
+
+if you want to make a variable available for only the loggedIn user  on the machine then add
+
+```bash
+export VARIABLE_NAME=VALUE
+```
+
+to `ls .bashrc`
