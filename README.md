@@ -65,3 +65,20 @@ export VARIABLE_NAME=VALUE
 ```
 
 to `ls ~/.bashrc`
+
+### input example
+
+```bash
+echo "Enter your skill"
+read SKILL
+
+echo 
+echo "Your skill is $SKILL, and it's in high demand"
+echo
+
+read -p "Username: " USR
+read -sp "Password: " PSD
+```
+
+- `-p` for prompt
+- `-sp` for suppressed prompt (password etc - it doesn't print to the console)
