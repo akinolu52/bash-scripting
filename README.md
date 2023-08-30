@@ -11,7 +11,7 @@ uptime
 echo 
 ```
 
-## variable example
+### variable example
 
 ```#!/bin/bash
 # variable declaration
