@@ -106,6 +106,38 @@ read -p "Enter a number: " num
 
 if [ $num -gt 100 ]
 then
-    echo "number is grater than 100"
+    echo "Number is greater than 100"
+fi
+```
+
+### if...else condition example
+
+```bash
+# start if block
+# NB there must be space after [ and before ]
+if [ condition ]
+then
+    statement
+# end if block
+else
+    statement
+# end of else block
+fi
+```
+
+- `-lt`: less than
+- `-gt`: greater than
+- `sleep 5`: this is to wait for 5 seconds
+
+condition example
+
+```bash
+read -p "Enter a number: " num
+
+if [ $num -gt 100 ]
+then
+    echo "number is greater than 100"
+else
+    echo "number is less than 100"
 fi
 ```
