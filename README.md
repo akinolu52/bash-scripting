@@ -82,3 +82,30 @@ read -sp "Password: " PSD
 
 - `-p` for prompt
 - `-sp` for suppressed prompt (password etc - it doesn't print to the console)
+
+### if condition example
+
+```bash
+# start if block
+# NB there must be space after [ and before ]
+if [ condition ]
+then
+    statement
+# end if block
+fi
+```
+
+- `-lt`: less than
+- `-gt`: greater than
+- `sleep 5`: this is to wait for 5 seconds
+
+condition example
+
+```bash
+read -p "Enter a number: " num
+
+if [ $num -gt 100 ]
+then
+    echo "number is grater than 100"
+fi
+```
