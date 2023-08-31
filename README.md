@@ -125,10 +125,6 @@ else
 fi
 ```
 
-- `-lt`: less than
-- `-gt`: greater than
-- `sleep 5`: this is to wait for 5 seconds
-
 condition example
 
 ```bash
