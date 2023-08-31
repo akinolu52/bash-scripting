@@ -138,3 +138,38 @@ else
     echo "number is less than 100"
 fi
 ```
+
+### if...elif...else condition example
+
+```bash
+# start if block
+# NB there must be space after [ and before ]
+if [ condition ]
+then
+    statement
+# end if block
+elif [ condition ]
+then
+    statement
+# end of elif block
+else
+    statement
+# end of else block
+fi
+```
+
+condition example
+
+```bash
+read -p "Enter a number: " num
+
+if [ $num -gt 100 ]
+then
+    echo "number is greater than 100"
+elif [ $num -eq 100 ]
+then
+    echo "number is equal to 100"
+else
+    echo "number is less than 100"
+fi
+```
