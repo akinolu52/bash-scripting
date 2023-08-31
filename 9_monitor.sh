@@ -6,6 +6,10 @@ date
 
 ls /var/run/httpd/httpd.pid &> /dev/null
 
+# #? is used to check the exit code of the last script
+# if it's 0 then it's successful 
+# if failed it's not 0
+
 if [ $? -eq 0 ]
 then 
     echo "Httpd process is currently running"
