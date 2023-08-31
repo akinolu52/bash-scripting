@@ -173,3 +173,27 @@ else
     echo "number is less than 100"
 fi
 ```
+
+### for loop example
+
+```bash
+for variable in list
+do
+    statement
+done
+```
+
+for loop example
+
+```bash
+echo
+languages="java python javascript typescript ruby php"
+for language in $languages
+do
+    sleep 1
+    echo "################################################################"
+    echo "I can write: $language"
+    echo "################################################################"
+    date
+done
+```
